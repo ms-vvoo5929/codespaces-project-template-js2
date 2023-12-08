@@ -16,27 +16,24 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "christmas background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Panda, Tu. TKU department of Information Management In Taiwan(R.O.C)";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "MS365",
+  "Azure",
+  "Web Design",
 ];
 
 /**
@@ -45,7 +42,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Hello everyone! My name is Chao-Hsiang Tu, and you can call me Panda.I am currently enrolled at Tamkang University, where the institution collaborates with Microsoft Taiwan. I am also a member of the university's Microsoft Cloud Student Ambassador (CSA) program. My role primarily involves assisting the university in promoting MS365 services and providing guidance to faculty members on how to effectively utilize MS365 tools such as Forms, Lists, SharePoint, OneDrive, Power Automate, Power Virtual Agents, and more. Although I encounter various challenges throughout this process, I am dedicated to finding solutions and overcoming them. Now, I have successfully been accepted into Microsoft's Learn Student Ambassador program. In this program, I hope to learn more about MS365 tools and, in turn, promote them to those around me! One lifetime, live in the moment, be yourself!";
 
 const About = () => {
   return (
